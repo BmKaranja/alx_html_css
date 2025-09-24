@@ -12,6 +12,7 @@ article{
     flex: 2;
     background-color: aliceblue;
     font-size: medium;
+    margin-top:40px ;
 }
 aside{
     flex: 1;
