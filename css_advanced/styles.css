@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    background-image: url('Simple\ Background\ for\ Presentation.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: block;
+    color:white;
+    height: 10vh;
+}
+.logo{
+    width: 1vw;
+    height: auto;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav img{
+    flex:0.2
+}
+nav ul{
+    flex:auto;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap:10vh;
+    padding-right: 5vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vh;
+}
+.s-1{
+    display:block;
+    text-align: center;
+    padding-top:27vh;
+    padding-bottom: 20vh;
+    color: white;
+}
+.s-1 button{
+    background-color: rgb(173, 109, 233);
+    color: white;
+    padding: 2vh 3vh;
+    font-size: 2.5vh;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.s-1 h1{
+    font-size: 21vh;
+    margin: 0;
+    padding: 0;
+    color:white
+}
+.span-1{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    font-size: 3vh;
+}
+.sec-1{
+    height: 140vh;
+}
