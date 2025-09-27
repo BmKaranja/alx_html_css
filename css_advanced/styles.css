@@ -39,14 +39,14 @@ nav ul li a{
     color: white;
     font-size: 2.5vh;
 }
-.s-1{
+.sec-p-1{
     display:block;
     text-align: center;
     padding-top:27vh;
-    padding-bottom: 20vh;
+    padding-bottom: 15vh;
     color: white;
 }
-.s-1 button{
+.sec-p-1 button{
     background-color: rgb(173, 109, 233);
     color: white;
     padding: 2vh 3vh;
@@ -56,7 +56,7 @@ nav ul li a{
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.s-1 h1{
+.sec-p-1 h1{
     font-size: 21vh;
     margin: 0;
     padding: 0;
@@ -69,5 +69,26 @@ nav ul li a{
     font-size: 3vh;
 }
 .sec-1{
-    height: 140vh;
+    height: 170vh;
+}
+.sec-p-2{
+    text-align: center;
+    padding: 10vh 20vh;
+}
+.sec-p-2 h2{
+    font-size: 7.5vh;
+    margin-bottom: 10vh;
+    font-weight: normal;
+}
+.sec-p-2-div{
+    display:flex;
+    justify-content: center;
+    gap: 10vh;
+    color: white;
+    font-weight: 400;
+}
+.sec-p-2-div img{
+    width: 25vh;
+    height: auto;
+    clip-path: circle(50% at 50% 50%);
 }
